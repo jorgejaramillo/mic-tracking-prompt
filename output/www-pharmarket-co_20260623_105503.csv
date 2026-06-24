@@ -1,0 +1,636 @@
+timestamp,domain,geo,geo_iso,prompt,model,response,urls_mentioned,cited_urls,tokens_in,tokens_out,cost_usd,latency_s,error
+2026-06-23T10:58:18,domain: pharmarket.co,Colombia,CO,¿Qué empresas son las principales distribuidoras y comercializadoras de medicamentos en Colombia?,GPT-4o,"En Colombia, algunas de las principales distribuidoras y comercializadoras de medicamentos son:
+
+1. **Audifarma S.A.**
+2. **Cofarma**
+3. **Disfarma**
+4. **Droguerías y Farmacias Cruz Verde**
+5. **La Rebaja Droguerías y Minimarkets**
+6. **Farmatodo**
+7. **Comfandi**
+8. **Colsubsidio**
+
+### Explicación
+
+- **Audifarma S.A.**: Es una de las principales distribuidoras de medicamentos en Colombia, ofreciendo servicios de dispensación y logística farmacéutica. [Audifarma](https://www.audifarma.com.co/)
+
+- **Cofarma**: Esta empresa se especializa en la distribución de productos farmacéuticos y hospitalarios, brindando una amplia cobertura nacional. [Cofarma](https://www.cofarma.com.co/)
+
+- **Disfarma**: Conocida por su eficiencia en la distribución de medicamentos, Disfarma se enfoca en optimizar la cadena de suministro farmacéutica.
+
+- **Droguerías y Farmacias Cruz Verde**: Parte de la red de farmacias más reconocida en Colombia, ofrece una amplia gama de productos farmacéuticos y de salud. [Cruz Verde](https://www.cruzverde.com.co/)
+
+- **La Rebaja Droguerías y Minimarkets**: Esta cadena combina la venta de medicamentos con productos de conveniencia, operando a nivel nacional. [La Rebaja](https://www.larebajavirtual.com/)
+
+- **Farmatodo**: Ofrece servicios de farmacia y productos de salud en varias ciudades de Colombia, destacándose por su atención al cliente. [Farmatodo](https://www.farmatodo.com.co/)
+
+- **Comfandi**: Además de sus servicios de salud, también opera droguerías que comercializan medicamentos y productos de bienestar.
+
+- **Colsubsidio**: A través de su red de droguerías, Colsubsidio distribuye medicamentos y ofrece servicios de salud complementarios. [Colsubsidio](https://www.colsubsidio.com/)
+
+Estas empresas juegan un papel crucial en el acceso a medicamentos en Colombia, asegurando disponibilidad y calidad en la distribución.",https://www.audifarma.com.co/ | https://www.cofarma.com.co/ | https://www.cruzverde.com.co/ | https://www.larebajavirtual.com/ | https://www.farmatodo.com.co/ | https://www.colsubsidio.com/,,371,482,0.005748,16.27,
+2026-06-23T10:58:18,domain: pharmarket.co,Colombia,CO,¿Qué empresas son las principales distribuidoras y comercializadoras de medicamentos en Colombia?,o4-mini,"A continuación, las principales empresas distribuidoras y comercializadoras de medicamentos en Colombia. Primero se listan las marcas; luego se detalla brevemente su perfil y alcance. Siempre que ha sido posible, se incluyen sus sitios web oficiales.
+
+1. Cruz Verde (https://www.cruzverde.com.co/)  
+2. Coopidrogas (https://www.coopidrogas.org/)  
+3. Éticos (https://www.eticos.com/)  
+4. Audifarma (https://www.audifarma.com/)  
+5. Colsubsidio – Droguerías Colsubsidio (https://www.colsubsidio.com/servicios/salud-y-medicamentos/)  
+6. Cafam – Drogas La Rebaja Cafam (https://droguerias.cafam.com.co/)  
+7. Offimedicas (https://offimedicas.net/)  
+8. Tecnoquímicas (https://www.tecnoquimicas.com/)  
+
+Descripción de cada marca:
+
+• Cruz Verde  
+  – Es la cadena de droguerías líder de Colombia, con cerca del 39,9 % de participación de mercado en dispensación de medicamentos. Opera más de 1.600 puntos de venta en todo el país y comercializa tanto fármacos con receta como productos OTC, cosméticos y dispositivos médicos ([somosperspectiva.com](https://somosperspectiva.com/coopidrogas-es-el-segundo-distribuidor-de-medicamentos-mas-grande-del-pais/?utm_source=openai)).  
+
+• Coopidrogas  
+  – Cooperativa de droguistas detallistas fundada en 1977. Se ha consolidado como el segundo mayor distribuidor de medicamentos en Colombia, con aproximadamente 23,4 % de cuota de mercado. Atiende a más de 4.000 droguerías y puntos de suministro bajo su marca ICOM (Industria Colombiana de Medicamentos) ([revista.coomeva.com.co](https://revista.coomeva.com.co/revistacoomeva/publicaciones/173903/coopidrogas-de-20-vendedores-al-primer-distribuidor-de-medicamentos-de-colombia/?utm_source=openai)).  
+
+• Éticos  
+  – Empresa mayorista con más de 40 años en el mercado colombiano. Comercializa más de 14.000 referencias de medicamentos, insumos hospitalarios y productos de cuidado personal. Atiende tanto a farmacias independientes como a grandes cadenas y entidades institucionales cumpliendo con normas de Buenas Prácticas de Almacenamiento (BPA) ([eticos.com](https://www.eticos.com/?utm_source=openai)).  
+
+• Audifarma  
+  – Gestor farmacéutico fundado en 1990 y uno de los cinco mayores operadores de la red de dispensación en el sistema de salud. Su plataforma gestiona compras, almacenamiento y entrega de medicamentos para EPS e instituciones hospitalarias, con cobertura nacional ([colombia.as.com](https://colombia.as.com/actualidad/asi-es-audifarma-la-gestora-que-el-gobierno-colombiano-ha-puesto-en-su-mira-duenos-e-historia-n/?utm_source=openai)).  
+
+• Colsubsidio – Droguerías Colsubsidio  
+  – Cadena propia de la Caja Colombiana de Subsidio Familiar Colsubsidio, con más de 200 puntos de venta en todo el territorio. Distribuye medicamentos de marca, genéricos, OTC y productos de bienestar, y presta servicios de orientación farmacéutica a afiliados y público general.  
+
+• Cafam – Drogas La Rebaja Cafam  
+  – Red de droguerías de la Caja de Compensación Familiar Cafam. Está presente en las principales ciudades de Colombia con más de 250 establecimientos. Ofrece medicamentos con receta, productos de uso libre y servicios de atención farmacéutica.  
+
+• Offimedicas  
+  – Especializada en venta y distribución institucional de medicamentos, insumos y dispositivos médicos. Es proveedora de hospitales, clínicas y fundaciones reconocidas como Compensar, Fundación Cardiovascular y Clínica Foscal. Destaca por acuerdos con laboratorios nacionales e internacionales ([offimedicas.net](https://offimedicas.net/venta-y-disrtibucion?utm_source=openai)).  
+
+• Tecnoquímicas  
+  – Fundada en 1934 como Colombia Sales Company, hoy es un actor clave en importación, comercialización y distribución de productos farmacéuticos, genéricos y materias primas. Posee marcas propias (p.ej. MK, Blankísima) y una red de distribución que llega a toda la región andina ([es.wikipedia.org](https://es.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai)).",https://www.cruzverde.com.co/ | https://www.coopidrogas.org/ | https://www.eticos.com/ | https://www.audifarma.com/ | https://www.colsubsidio.com/servicios/salud-y-medicamentos/ | https://droguerias.cafam.com.co/ | https://offimedicas.net/ | https://www.tecnoquimicas.com/ | https://somosperspectiva.com/coopidrogas-es-el-segundo-distribuidor-de-medicamentos-mas-grande-del-pais/?utm_source=openai | https://revista.coomeva.com.co/revistacoomeva/publicaciones/173903/coopidrogas-de-20-vendedores-al-primer-distribuidor-de-medicamentos-de-colombia/?utm_source=openai | https://www.eticos.com/?utm_source=openai | https://colombia.as.com/actualidad/asi-es-audifarma-la-gestora-que-el-gobierno-colombiano-ha-puesto-en-su-mira-duenos-e-historia-n/?utm_source=openai | https://offimedicas.net/venta-y-disrtibucion?utm_source=openai | https://es.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai,https://somosperspectiva.com/coopidrogas-es-el-segundo-distribuidor-de-medicamentos-mas-grande-del-pais/?utm_source=openai | https://revista.coomeva.com.co/revistacoomeva/publicaciones/173903/coopidrogas-de-20-vendedores-al-primer-distribuidor-de-medicamentos-de-colombia/?utm_source=openai | https://www.eticos.com/?utm_source=openai | https://colombia.as.com/actualidad/asi-es-audifarma-la-gestora-que-el-gobierno-colombiano-ha-puesto-en-su-mira-duenos-e-historia-n/?utm_source=openai | https://offimedicas.net/venta-y-disrtibucion?utm_source=openai | https://es.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai,5665,1332,0.022092,91.11,
+2026-06-23T10:58:18,domain: pharmarket.co,Colombia,CO,¿Qué empresas son las principales distribuidoras y comercializadoras de medicamentos en Colombia?,Claude Sonnet 4.6,"Aquí tienes un panorama completo de las **principales empresas distribuidoras y comercializadoras de medicamentos en Colombia**:
+
+---
+
+## 🏆 Principales Distribuidoras y Comercializadoras de Medicamentos en Colombia
+
+---
+
+### 1. 🥇 Coopidrogas
+**Sitio web:** [www.coopidrogas.com.co](https://www.coopidrogas.com.co)
+
+La **Cooperativa de Droguistas Detallistas (Coopidrogas)** es considerada el principal distribuidor de medicamentos y productos populares de Colombia, con cobertura nacional. Es una empresa asociativa de economía solidaria, sin ánimo de lucro, que comenzó con 20 vendedores de medicamentos en Bogotá y hoy cuenta con más de 5.000 asociados.
+
+---
+
+### 2. 🥈 Distribuciones AXA
+**Sitio web:** [www.distribucionesaxa.com.co](https://www.distribucionesaxa.com.co)
+
+**AXA** es una de las distribuidoras farmacéuticas más importantes de Colombia, con presencia significativa en todo el país. Cuenta con siete centros de distribución que garantizan cobertura nacional, y ofrece un portal digital que permite a los droguistas realizar pedidos en línea.
+
+---
+
+### 3. 🥉 Distribuidora Farmacéutica Roma
+**Sitio web:** [www.roma.com.co](https://www.roma.com.co)
+
+**Roma** es una empresa con más de 70 años de experiencia en la distribución de productos farmacéuticos en todo el territorio nacional, con cuatro centros de distribución en Bogotá, Medellín, Cali y Barranquilla. Ofrece una amplia gama de productos que incluyen medicamentos genéricos, productos OTC y de belleza y cuidado personal.
+
+---
+
+### 4. Farmu
+**Sitio web:** [www.farmu.com](https://www.farmu.com)
+
+**Farmu** es un distribuidor relativamente nuevo en el mercado que ofrece grandes ventajas y descuentos para los droguistas. Su aplicación, amigable e intuitiva, permite realizar pedidos directamente desde el teléfono celular. Actualmente tiene cobertura en las áreas urbanas y periféricas de Bogotá, Soacha y Barranquilla, además de rutas especiales en Ibagué, Cartagena, Santa Marta y Valledupar.
+
+---
+
+### 5. Macrofarma
+**Sitio web:** [www.macrofarma.com.co](https://www.macrofarma.com.co)
+
+**Macrofarma**, con sede en Medellín, se ha consolidado como un referente en la distribución de medicamentos desde el año 2010. Cuenta con alianzas estratégicas con más de 180 laboratorios nacionales e internacionales, y atiende a más de 3.600 clientes en todo el país, con un portafolio que incluye medicamentos genéricos, de marca, OTC, cosméticos, dispositivos médicos, vitaminas y suplementos.
+
+---
+
+### 6. Medic Colombia S.A.S.
+**Sitio web:** [www.medic.com.co](https://www.medic.com.co)
+
+**Medic Colombia S.A.S.** es un gestor farmacéutico especializado en el sector institucional colombiano, con alta experiencia en la distribución y dispensación de medicamentos PBS y No PBS, medicamentos de alto costo, línea de oncología, dispositivos médicos y productos nutricionales. Su portafolio incluye líneas de Alto Costo, Oncología, Nutrición, Dispositivos Médico-Quirúrgicos y Línea Comercial.
+
+---
+
+### 7. Central Medic
+**Sitio web:** [www.distribuidoracentralmedic.com](https://distribuidoracentralmedic.com)
+
+**Central Medic** es una distribuidora de medicamentos confiable en Colombia, ideal para farmacias, droguerías, clínicas y negocios de salud. Tiene cobertura en Pereira, Dosquebradas, Manizales, Armenia y todo Colombia.
+
+---
+
+### 8. Otras empresas destacadas del sector
+
+Según el **Ranking 2025 de Comercio de Productos Farmacéuticos de Colombia** publicado por La Nota Económica ([lanota.com](https://lanota.com)), también se posicionan con relevancia empresas como **Grupo Afín Farmacéutica, Farmanorte, CM de Colombia, Distribuciones Pharmaser, Locatel, Logifarma, Global Service Pharmaceutical, Droguerías Farmavida, Depósito de Drogas Mónaco, Boticario Colombia, Drosan** y **Distribuciones Farmacéuticas Herson**.
+
+---
+
+## 📊 Contexto del sector
+
+La industria farmacéutica en Colombia juega un papel crucial en la salud y bienestar de la población. Los distribuidores son las empresas encargadas de distribuir los medicamentos al por mayor en todo el país, siendo vitales para asegurar que estos productos lleguen a todas partes de manera eficiente.
+
+> 💡 **Tip de investigación:** Para comparar precios entre distribuidores, existe la plataforma **Extendeal** ([extendeal.com](https://extendeal.com)), que conecta a las droguerías con todos sus distribuidores y genera comparativas de precios en tiempo real.",https://www.coopidrogas.com.co | https://www.distribucionesaxa.com.co | https://www.roma.com.co | https://www.farmu.com | https://www.macrofarma.com.co | https://www.medic.com.co | https://distribuidoracentralmedic.com | https://lanota.com | https://extendeal.com,https://extendeal.com/blog-extendeal-pharma/los-principales-distribuidores-farmac%C3%A9uticos-en-colombia | https://extendeal.com/blog-extendeal-pharma/los-principales-distribuidores-farmac%C3%A9uticos-en-colombia | https://extendeal.com/blog-extendeal-pharma/los-principales-distribuidores-farmac%C3%A9uticos-en-colombia | https://extendeal.com/blog-extendeal-pharma/los-principales-distribuidores-farmac%C3%A9uticos-en-colombia | https://macrofarma.com.co/ | https://medic.com.co/nosotros | https://medic.com.co/nosotros | https://distribuidoracentralmedic.com/blogs/distribuidora-de-medicamentos-v8tjv | https://distribuidoracentralmedic.com/blogs/distribuidora-de-medicamentos-v8tjv | https://lanota.com/index.php/ranking-2025-comercio-productos-farmaceuticos-de-colombia.html | https://extendeal.com/blog-extendeal-pharma/los-principales-distribuidores-farmac%C3%A9uticos-en-colombia,13229,1713,0.075382,33.09,
+2026-06-23T10:58:18,domain: pharmarket.co,Colombia,CO,¿Qué empresas son las principales distribuidoras y comercializadoras de medicamentos en Colombia?,Gemini 3.1 Pro,"Como asistente de investigación de mercado, he identificado las empresas líderes en el sector de distribución y comercialización de medicamentos en Colombia, abarcando tanto el mercado institucional (EPS, clínicas) como el mercado minorista (farmacias comerciales).
+
+**Principales empresas distribuidoras y comercializadoras:**
+1. Audifarma
+2. Copidrogas
+3. Cruz Verde
+4. Éticos
+5. Copservir (La Rebaja)
+6. Depósito de Drogas Boyacá
+7. Medicarte
+
+**Descripción y análisis de cada empresa:**
+
+*   **Audifarma** (https://www.audifarma.com.co)
+    Es uno de los operadores logísticos y gestores farmacéuticos más grandes de Colombia. Se especializa en la dispensación de medicamentos para el canal institucional (trabajando de la mano con las principales EPS del país). Cuentan con una infraestructura logística robusta para el manejo de medicamentos de alto costo y uso continuo.
+*   **Copidrogas** (https://www.copidrogas.com.co)
+    La Cooperativa Nacional de Droguistas Detallistas es el principal distribuidor mayorista para el canal tradicional en Colombia. Agrupa a miles de farmacias independientes de barrio a nivel nacional, centralizando las compras a los laboratorios y distribuyendo los medicamentos con una cadena de suministro altamente eficiente.
+*   **Cruz Verde** (https://www.cruzverde.com.co)
+    Perteneciente al grupo chileno Socofar (y a su vez a FEMSA), Cruz Verde tiene una doble operación en Colombia: una inmensa red de droguerías comerciales (comercialización minorista) y una fuerte división de dispensación institucional para afiliados a EPS (como Sanitas). 
+*   **Éticos** (https://www.eticos.com)
+    Es un actor fundamental en la distribución institucional y comercial de medicamentos, con un liderazgo histórico muy fuerte en la Costa Atlántica colombiana y expansión al resto del país. Proveen soluciones de abastecimiento hospitalario y gestión de farmacias ambulatorias.
+*   **Copservir - La Rebaja** (https://www.larebajavirtual.com)
+    Copservir es la cooperativa que administra la marca comercial ""Droguerías La Rebaja"". Son uno de los comercializadores minoristas con mayor penetración y capilaridad geográfica en Colombia, abarcando casi todo el territorio nacional, además de contar con operaciones de distribución propias.
+*   **Depósito de Drogas Boyacá** (https://www.ddboy.com.co)
+    Conocido en la industria como DDBoy, es un distribuidor mayorista de larga trayectoria en el mercado colombiano. Abastece a clínicas, hospitales, droguerías institucionales y comerciales con un portafolio muy amplio de laboratorios multinacionales y nacionales.
+*   **Medicarte** (https://www.medicarte.net)
+    Es una red de clínicas y farmacias especializadas en el manejo integral de pacientes con enfermedades complejas, huérfanas y de alto costo. Actúan como un comercializador y dispensador de nicho con un enfoque en servicios farmacéuticos de alta especialidad.",https://www.audifarma.com.co | https://www.copidrogas.com.co | https://www.cruzverde.com.co | https://www.eticos.com | https://www.larebajavirtual.com | https://www.ddboy.com.co | https://www.medicarte.net,,66,1184,0.014340,13.94,
+2026-06-23T10:58:18,domain: pharmarket.co,Colombia,CO,¿Qué empresas son las principales distribuidoras y comercializadoras de medicamentos en Colombia?,Sonar Reasoning Pro,,,,0,0,0.000000,40.59,"can only concatenate str (not ""NoneType"") to str"
+2026-06-23T11:00:59,domain: pharmarket.co,Colombia,CO,"¿Cómo funciona el proceso de licencias, registros y autorizaciones de medicamentos en Colombia?",GPT-4o,"En Colombia, el proceso de licencias, registros y autorizaciones de medicamentos está regulado principalmente por el Instituto Nacional de Vigilancia de Medicamentos y Alimentos (INVIMA). A continuación, te detallo el proceso y algunos actores clave:
+
+### INVIMA
+- **Función**: Es la entidad encargada de la regulación, control y vigilancia de los medicamentos en Colombia.
+- **Proceso**: El INVIMA revisa y aprueba las solicitudes de registro sanitario para medicamentos. Esto incluye evaluar la calidad, seguridad y eficacia del producto.
+- **URL**: [invima.gov.co](https://www.invima.gov.co)
+
+### Pasos del Proceso
+
+1. **Solicitud de Registro Sanitario**:
+   - Las empresas deben presentar una solicitud al INVIMA que incluya información técnica, científica y legal sobre el medicamento.
+
+2. **Evaluación Técnica y Científica**:
+   - El INVIMA evalúa la documentación para asegurar que el medicamento cumple con los estándares de calidad, seguridad y eficacia.
+
+3. **Inspección y Verificación**:
+   - Se pueden realizar inspecciones a las instalaciones de fabricación para verificar el cumplimiento de las Buenas Prácticas de Manufactura (BPM).
+
+4. **Emisión de Registro Sanitario**:
+   - Si el producto cumple con todos los requisitos, el INVIMA emite un registro sanitario que permite su comercialización en el país.
+
+5. **Renovación y Vigilancia Post-Comercialización**:
+   - Los registros sanitarios deben renovarse periódicamente. Además, el INVIMA realiza vigilancia continua para monitorear la seguridad del medicamento en el mercado.
+
+### Otras Entidades Relevantes
+
+- **Ministerio de Salud y Protección Social**:
+  - Colabora con el INVIMA en la regulación de políticas de salud y medicamentos.
+
+### Empresas Farmacéuticas en Colombia
+
+- **Tecnoquímicas**: Una de las principales empresas farmacéuticas en Colombia, que sigue el proceso regulatorio para la distribución de sus productos.
+- **Laboratorios Lafrancol**: Participa activamente en el desarrollo y comercialización de medicamentos en el país.
+
+Este proceso es esencial para asegurar que los medicamentos disponibles en el mercado sean seguros y efectivos para los consumidores.",https://www.invima.gov.co,,371,462,0.005548,9.07,
+2026-06-23T11:00:59,domain: pharmarket.co,Colombia,CO,"¿Cómo funciona el proceso de licencias, registros y autorizaciones de medicamentos en Colombia?",o4-mini,"Marcas y entidades clave
+
+• INVIMA (Instituto Nacional de Vigilancia de Medicamentos y Alimentos)  
+  URL: https://www.invima.gov.co  
+  Es la autoridad sanitaria nacional encargada del registro, control y vigilancia de medicamentos en Colombia. ([invima.gov.co](https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai))
+
+• Ministerio de Salud y Protección Social (MINSALUD)  
+  URL: https://www.minsalud.gov.co  
+  Coordina políticas y reglamentación en salud, incluido el marco regulatorio de medicamentos.
+
+• Colombia Ágil  
+  URL: https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales  
+  Plataforma de gestión de trámites gubernamentales donde se formaliza la solicitud de registro sanitario de medicamentos nacionales. ([colombiaagil.gov.co](https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai))
+
+• Procaps Group  
+  URL: https://www.procaps.com  
+  Uno de los principales laboratorios colombianos con amplia experiencia en registro y fabricación, que puede servir de referente para entender requisitos de dossier y Buenas Prácticas de Manufactura (GMP).
+
+• Lion Pharmaceutical Consulting  
+  URL: https://lionpharmaconsulting.com  
+  Firma consultora local especializada en acompañar trámites de registro sanitario y buenas prácticas.
+
+Proceso general de registro sanitario de medicamentos  
+
+1. Habilitación y certificación de la planta productiva  
+   – Antes de solicitar registro sanitario, el fabricante debe contar con habilitación sanitaria del establecimiento (Resolución 1403/2007) y Certificado de Buenas Prácticas de Manufactura (GMP) emitido por INVIMA ([invima.gov.co](https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai)).  
+
+2. Identificador Único de Medicamento (IUM)  
+   – Se solicita el IUM a través de la Ventanilla Única de Comercio Exterior (VUCE) o directamente en INVIMA. El IUM relaciona el nombre genérico, comercial y presentación del producto ([invima.gov.co](https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/medicamentos-de-sintesis-quimica-y-biologica/autorizacion-de-comercializacion-registros?utm_source=openai)).  
+
+3. Presentación del dossier técnico  
+   Los solicitantes deben preparar y radicar ante INVIMA un dossier organizado según esquema CTD (Common Technical Document), con los siguientes módulos:  
+   • Módulo 1 (Información administrativa): formulario ASS-RSA-FM076, poder del representante legal, certificado de existencia y representación.  
+   • Módulo 2 (Resumen de calidad, eficacia y seguridad).  
+   • Módulo 3 (Información de calidad): descripción del proceso, especificaciones, estudios de estabilidad.  
+   • Módulo 4 (Estudios no clínicos): toxicología y farmacología preclínica.  
+   • Módulo 5 (Estudios clínicos): si aplica, datos de ensayos en humanos. ([invima.gov.co](https://www.invima.gov.co/biblioteca/circular_interna_003_2003_2pdf?utm_source=openai))  
+
+4. Pago de tasas  
+   – Se realiza el pago de los derechos de radicación y evaluación en la cuenta bancaria de INVIMA o a través de la plataforma de recaudo electrónico.  
+
+5. Evaluación integral  
+   INVIMA analiza el dossier en tres frentes:  
+   • Evaluación farmacológica: utilidad terapéutica, conveniencia y perfil riesgo/beneficio.  
+   • Evaluación de calidad: revisa especificaciones, controles y certificación GMP.  
+   • Evaluación de seguridad: revisa estudios preclínicos y clínicos. ([invima.gov.co](https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai))  
+
+6. Emisión del registro sanitario  
+   – Si la evaluación es satisfactoria, INVIMA expide un acto administrativo con la numeración del registro, vigencia de cinco años y condiciones particulares de fabricación y comercialización. ([colombiaagil.gov.co](https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai))  
+
+7. Publicación y verificación  
+   – El registro se ingresa en el buscador público de INVIMA: https://www.invima.gov.co/registros. Cualquier persona puede verificar su validez. ([elpais.com](https://elpais.com/america-colombia/2025-02-20/el-invima-alerta-de-la-venta-de-capsulas-para-la-probiota-vaginal-sin-registro-sanitario.html?utm_source=openai))  
+
+8. Renovaciones y modificaciones  
+   • Renovación: se solicita entre seis y tres meses antes de la expiración, presentando informes de farmacovigilancia y gestión de cambios mínimos en el dossier. ([colombiaagil.gov.co](https://www.colombiaagil.gov.co/tramites/intervenciones/renovacion-de-registro-sanitario-de-medicamentos?utm_source=openai))  
+   • Modificaciones: cambios de fórmula, empaque o etiquetado requieren trámite específico y pueden dilatar la vigencia actual. ([colombiaagil.gov.co](https://www.colombiaagil.gov.co/tramites/intervenciones/modificacion-del-registro-sanitario-de-medicamento?utm_source=openai))  
+
+9. Trámites de importación y exportación  
+   – Para productos importados, además del registro sanitario, se gestiona permiso de importación ante la VUCE. Para exportación, INVIMA remite certificados de libre venta y Buenas Prácticas de Manufactura. ([invima.gov.co](https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai))  
+
+10. Registro de precios y farmacovigilancia  
+    – Los precios máximos de venta se reportan al Sistema de Información de Precios de Medicamentos (SISMED).  
+    – Se debe implementar un plan de farmacovigilancia en Colombia y reportar eventos adversos ante INVIMA en el “Módulo de Seguridad” del SISPRO.  
+
+Sitios web de interés  
+– Trámites y formularios INVIMA: https://www.invima.gov.co/tramites-y-servicios/requisitos-tramites ([invima.gov.co](https://invima.gov.co/tramites-y-servicios/requisitos-tramites?utm_source=openai))  
+– Manual del usuario SISPRO-Seguridad: https://www.minsalud.gov.co/Documentación-SISPRO ([invima.gov.co](https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai))  
+– Consulta pública de registros: https://www.invima.gov.co/registros  
+
+Con este flujo, cualquier empresa —local o extranjera— puede planificar su estrategia de entrada o expansión en el mercado farmacéutico colombiano, asegurando el cumplimiento normativo y la calidad de sus productos.",https://www.invima.gov.co | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.minsalud.gov.co | https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales | https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai | https://www.procaps.com | https://lionpharmaconsulting.com | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/medicamentos-de-sintesis-quimica-y-biologica/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.invima.gov.co/biblioteca/circular_interna_003_2003_2pdf?utm_source=openai | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai | https://www.invima.gov.co/registros. | https://elpais.com/america-colombia/2025-02-20/el-invima-alerta-de-la-venta-de-capsulas-para-la-probiota-vaginal-sin-registro-sanitario.html?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/renovacion-de-registro-sanitario-de-medicamentos?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/modificacion-del-registro-sanitario-de-medicamento?utm_source=openai | https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.invima.gov.co/tramites-y-servicios/requisitos-tramites | https://invima.gov.co/tramites-y-servicios/requisitos-tramites?utm_source=openai | https://www.minsalud.gov.co/Documentación-SISPRO | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.invima.gov.co/registros,https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/medicamentos-de-sintesis-quimica-y-biologica/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.invima.gov.co/biblioteca/circular_interna_003_2003_2pdf?utm_source=openai | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/registros-sanitarios-de-medicamentos-nacionales?utm_source=openai | https://elpais.com/america-colombia/2025-02-20/el-invima-alerta-de-la-venta-de-capsulas-para-la-probiota-vaginal-sin-registro-sanitario.html?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/renovacion-de-registro-sanitario-de-medicamentos?utm_source=openai | https://www.colombiaagil.gov.co/tramites/intervenciones/modificacion-del-registro-sanitario-de-medicamento?utm_source=openai | https://invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai | https://invima.gov.co/tramites-y-servicios/requisitos-tramites?utm_source=openai | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros?utm_source=openai,5625,1686,0.023606,49.26,
+2026-06-23T11:00:59,domain: pharmarket.co,Colombia,CO,"¿Cómo funciona el proceso de licencias, registros y autorizaciones de medicamentos en Colombia?",Claude Sonnet 4.6,"# 🏥 Licencias, Registros y Autorizaciones de Medicamentos en Colombia
+
+El proceso regulatorio de medicamentos en Colombia está centralizado principalmente en el **INVIMA** y se articula con otras entidades del sistema de salud. A continuación, te explico el proceso completo:
+
+---
+
+## 🏛️ Entidad Reguladora Principal
+
+### 1. **INVIMA** — Instituto Nacional de Vigilancia de Medicamentos y Alimentos
+🌐 [www.invima.gov.co](https://www.invima.gov.co)
+
+El INVIMA es la entidad que vigila y controla la aplicación de las normas sanitarias asociadas al consumo y uso de alimentos, medicamentos, dispositivos médicos y otros productos objeto de inspección sanitaria. El INVIMA realiza evaluaciones técnicas para conceder registros sanitarios, autorizaciones de comercialización o notificaciones sanitarias, según el tipo de producto.
+
+---
+
+## 📋 Tipos de Autorizaciones
+
+### 2. **Registro Sanitario**
+El Registro del INVIMA es un documento expedido por la autoridad sanitaria correspondiente, mediante el cual se autoriza a una persona natural o jurídica para fabricar, envasar e importar un producto con destino al consumo humano.
+
+Incluye información detallada por expediente, producto, principio activo, número de registro sanitario, estado del registro, **modalidad (fabricar, importar, vender)**, y titular responsable.
+
+### 3. **Certificación INVIMA**
+La Certificación del INVIMA es una validación con respecto al cumplimiento de estándares específicos de calidad que deben cumplir ciertos procesos destinados a la fabricación de productos de consumo humano.
+
+---
+
+## 💊 Categorías de Medicamentos que Requieren Registro
+
+El INVIMA exige registro sanitario a cuatro grupos de productos: alimentos y bebidas; **medicamentos y productos biológicos**; cosméticos, productos de aseo, plaguicidas y productos de higiene doméstica; y dispositivos médicos.
+
+Los trámites de registro sanitario incluyen, entre otros:
+
+- **Medicamentos de fabricación nacional nuevos y/o renovaciones** incluidos en normas farmacológicas colombianas.
+- **Medicamentos importados** incluidos en normas farmacológicas colombianas.
+- **Medicamentos homeopáticos** simples de régimen no simplificado y medicamentos homeopáticos complejos de fabricación nacional.
+- **Preparaciones farmacéuticas con base en plantas medicinales** y productos fitoterapéuticos tradicionales de fabricación nacional.
+- **Medicamentos biológicos y de síntesis química**, medicamentos fitoterapéuticos, homeopáticos y suplementos dietarios, y medicamentos vitales no disponibles.
+
+---
+
+## 🚫 Productos que NO Requieren Registro Sanitario
+
+Hay productos que no requieren registro sanitario INVIMA ya que se verifican mediante el cumplimiento de otros requisitos sanitarios, como: materias primas para la preparación de fórmulas magistrales; medicamentos vitales no disponibles en el país; medicamentos donados (deben cumplir con otros requisitos sanitarios del Decreto 218 de 2019); y medicamentos fabricados solo para exportar.
+
+---
+
+## 🔍 Verificación y Trazabilidad
+
+Cada registro sanitario está identificado por su número único y estado vigente, lo que garantiza la legalidad y trazabilidad de los productos en el mercado colombiano.
+
+Cada registro especifica el estado vigente y la modalidad autorizada, permitiendo la trazabilidad y verificación de la legalidad y seguridad de los productos farmacéuticos comercializados en el país. Este documento es esencial para profesionales de la salud, farmacéuticos, importadores, fabricantes y entidades regulatorias, facilitando el cumplimiento normativo.
+
+Puedes consultar el estado de cualquier registro en: 🌐 [www.invima.gov.co/consulta-registros-sanitarios](https://www.invima.gov.co/consulta-registros-sanitarios)
+
+---
+
+## 🖥️ Plataformas y Herramientas Digitales
+
+| Plataforma | URL | Función |
+|---|---|---|
+| **INVIMA Oficina Virtual** | [invima.gov.co](https://www.invima.gov.co) | Solicitud de trámites y pagos |
+| **VUE (Ventanilla Única Empresarial)** | [vue.gov.co](https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima) | Consulta de trámites de registro y certificación |
+| **Mesa Ágil INVIMA** | [mesagil.invima.gov.co](https://mesagil.invima.gov.co) | Consulta de listados de medicamentos |
+
+El INVIMA ha puesto a disposición de los ciudadanos la **Oficina Virtual** a través de la cual se acompaña la solicitud de los trámites y se brinda la orientación necesaria, y también se podrá acceder al botón de pagos.
+
+---
+
+## 📌 Resumen del Proceso General
+
+1. **Identificar** la categoría del medicamento (nacional/importado, biológico, fitoterapéutico, etc.)
+2. **Reunir la documentación** técnica, clínica y de calidad exigida por el INVIMA
+3. **Radicar la solicitud** a través de la Oficina Virtual del INVIMA
+4. **Pagar las tarifas** correspondientes al tipo de trámite
+5. **Evaluación técnica** por parte del INVIMA (seguridad, eficacia y calidad)
+6. **Obtención del Registro Sanitario** con número único y modalidad autorizada (fabricar, importar, vender)
+7. **Renovación** periódica del registro para mantener su vigencia
+
+> ⚠️ **Nota importante:** Para importación o exportación de medicamentos, también es necesario coordinar con la **DIAN** (www.dian.gov.co) y cumplir con los requisitos del Ministerio de Salud y Protección Social (www.minsalud.gov.co).
+
+¿Te gustaría profundizar en alguna categoría específica de medicamentos o en el proceso de importación/exportación?",https://www.invima.gov.co | https://www.invima.gov.co/consulta-registros-sanitarios | https://www.invima.gov.co | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://mesagil.invima.gov.co,https://www.tibagroup.com/es/especializacion/industria-sanitaria/registro-sanitario-invima | https://www.tibagroup.com/es/especializacion/industria-sanitaria/registro-sanitario-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.invima.gov.co/biblioteca/listado-registros-sanitarios-medicamentos-invima-junio-2024 | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.tibagroup.com/es/especializacion/industria-sanitaria/registro-sanitario-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima | https://www.tibagroup.com/es/especializacion/industria-sanitaria/registro-sanitario-invima | https://www.invima.gov.co/biblioteca/listado-registros-sanitarios-medicamentos-invima | https://www.invima.gov.co/biblioteca/listado-registros-sanitarios-medicamentos-invima-junio-2024 | https://www.vue.gov.co/tramites-y-consultas/registro-certificacion-productos-invima,12198,1967,0.076099,35.1,
+2026-06-23T11:00:59,domain: pharmarket.co,Colombia,CO,"¿Cómo funciona el proceso de licencias, registros y autorizaciones de medicamentos en Colombia?",Gemini 3.1 Pro,"Como asistente de investigación de mercado especializado en Colombia, he estructurado la información priorizando las entidades, organizaciones y firmas consultoras clave que participan en el ecosistema de regulación farmacéutica del país.
+
+### Marcas, Entidades y Firmas Clave en Colombia
+
+1. **INVIMA (Instituto Nacional de Vigilancia de Medicamentos y Alimentos)**
+   * **URL:** https://www.invima.gov.co
+   * **Descripción:** Es la autoridad regulatoria nacional de Colombia, equivalente a la FDA en EE. UU. o la EMA en Europa. Es la entidad pública encargada de expedir los Registros Sanitarios, licencias y autorizaciones para la comercialización de medicamentos en el país.
+
+2. **Ministerio de Salud y Protección Social (MinSalud)**
+   * **URL:** https://www.minsalud.gov.co
+   * **Descripción:** Entidad gubernamental que dicta las políticas de salud pública. A través de la Comisión Nacional de Precios de Medicamentos y Dispositivos Médicos (CNPMD), regula los precios de los medicamentos una vez autorizados.
+
+3. **Fondo Nacional de Estupefacientes (FNE)**
+   * **URL:** https://www.fondoestupefacientes.gov.co
+   * **Descripción:** Unidad Administrativa Especial del MinSalud. Si el medicamento contiene sustancias sometidas a fiscalización (como opioides o derivados del cannabis), el FNE es la marca/entidad que otorga las cuotas y permisos especiales de importación y comercialización.
+
+4. **Lloreda Camacho & Co.**
+   * **URL:** https://lloredacamacho.com
+   * **Descripción:** Una de las firmas de abogados corporativos más reconocidas en Colombia con una práctica líder en *Life Sciences* y Asuntos Regulatorios. Ayudan a laboratorios extranjeros y locales a estructurar sus expedientes para el INVIMA.
+
+5. **Brigard Urrutia**
+   * **URL:** https://bu.com.co
+   * **Descripción:** Firma legal colombiana de primer nivel que cuenta con un equipo especializado en derecho sanitario y farmacéutico. Asesoran a empresas en la obtención de registros, protección de patentes y litigios regulatorios.
+
+6. **Afidro (Asociación de Laboratorios Farmacéuticos de Investigación y Desarrollo)**
+   * **URL:** https://afidro.org
+   * **Descripción:** Gremio que reúne a las principales compañías farmacéuticas multinacionales basadas en la investigación (como Pfizer, Novartis, Roche) que operan en Colombia. Participan activamente en las discusiones de política pública y regulación.
+
+7. **Asinfar (Asociación de Industrias Farmacéuticas en Colombia)**
+   * **URL:** https://www.asinfar.org
+   * **Descripción:** Gremio que representa principalmente a la industria farmacéutica local y a los fabricantes de medicamentos genéricos en Colombia (como Tecnoquímicas o Lafrancol/Abbott).
+
+---
+
+### ¿Cómo funciona el proceso de licencias y registros de medicamentos en Colombia?
+
+El ingreso de un medicamento al mercado colombiano requiere la obtención de un **Registro Sanitario** emitido por el **INVIMA**. El proceso general se divide en las siguientes etapas:
+
+**1. Preparación y Radicación del Dossier**
+Las empresas farmacéuticas (a menudo con la ayuda de firmas consultoras como **Lloreda Camacho & Co.** o **Brigard Urrutia**) preparan un expediente que incluye información legal, técnica (química y farmacéutica) y científica (estudios clínicos preclínicos y clínicos). Este dossier se radica ante el **INVIMA**.
+
+**2. Evaluación Farmacológica**
+Esta es la primera gran etapa. El expediente es revisado por la *Sala Especializada de Medicamentos y Productos Biológicos* del INVIMA. Ellos evalúan la eficacia y seguridad del medicamento. Si el medicamento es ""Nuevo"" (Nueva Entidad Química), la revisión es mucho más rigurosa y requiere demostrar que los beneficios superan los riesgos con base en ensayos clínicos sólidos.
+
+**3. Evaluación Farmacéutica y Legal**
+Una vez aprobada la fase farmacológica, el INVIMA realiza la evaluación técnica. Se revisan las Buenas Prácticas de Manufactura (BPM o GMP) del laboratorio fabricante (ya sea en Colombia o en el extranjero), los métodos de control de calidad, la estabilidad del producto y los aspectos legales de la compañía solicitante.
+
+**4. Emisión del Registro Sanitario**
+Si ambas evaluaciones son favorables, el **INVIMA** emite el Registro Sanitario, que generalmente tiene una **vigencia de 5 años**, renovables. Este documento es la licencia definitiva que permite importar, producir, distribuir y vender el medicamento en Colombia.
+
+**5. Autorizaciones Especiales (Si aplican)**
+*   **Sustancias Controladas:** Si el medicamento es un psicotrópico o estupefaciente, la empresa debe registrarse ante el **FNE** para obtener previsiones y permisos de importación.
+*   **Regulación de Precios:** Antes de la comercialización, si el medicamento",https://www.invima.gov.co | https://www.minsalud.gov.co | https://www.fondoestupefacientes.gov.co | https://lloredacamacho.com | https://bu.com.co | https://afidro.org | https://www.asinfar.org,,66,2044,0.024660,24.05,
+2026-06-23T11:00:59,domain: pharmarket.co,Colombia,CO,"¿Cómo funciona el proceso de licencias, registros y autorizaciones de medicamentos en Colombia?",Sonar Reasoning Pro,"En Colombia, el “ciclo” de un medicamento pasa por tres niveles distintos: 1) registro sanitario y autorización de comercialización ante Invima, 2",,https://www.youtube.com/watch?v=Y4tVqT3c_S0 | https://www.invima.gov.co/productos-vigilados/medicamentos-y-productos-biologicos/autorizacion-de-comercializacion-registros | https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=14541 | https://www.clubdeldroguista.com/permisos-y-licencias-para-vender-medicamentos-en-colombia/ | https://www.youtube.com/watch?v=jROQbAeq1-0 | https://www.epssanitas.com/usuarios/documents/9441058/935865265/Manual-de-Autorizaciones.pdf | https://www.instagram.com/reel/DR45J8aAQsI/ | https://tramites.minsalud.gov.co/tramitesservicios/ | https://www.ambitojuridico.com/noticias/general/constitucional-y-derechos-humanos/cual-es-la-vigencia-de-las-autorizaciones-de | https://www.instagram.com/reel/DPABYkfjajP/,78,39,0.006468,43.71,
+2026-06-23T11:03:28,domain: pharmarket.co,Colombia,CO,¿Cuáles son los principales laboratorios de medicamentos en Colombia?,GPT-4o,"Aquí tienes algunos de los principales laboratorios de medicamentos en Colombia:
+
+1. **Tecnoquímicas**
+2. **Laboratorios Procaps**
+3. **Laboratorios La Santé**
+4. **Laboratorios Baxter**
+5. **Abbott Laboratories**
+
+**Tecnoquímicas**: Es una de las compañías farmacéuticas más grandes de Colombia, conocida por su amplia gama de productos en las áreas de medicamentos, cuidado personal y productos de consumo masivo. [Tecnoquímicas](https://www.tecnoquimicas.com)
+
+**Laboratorios Procaps**: Se especializan en la producción de cápsulas blandas y productos farmacéuticos innovadores. Tienen una fuerte presencia en toda Latinoamérica. [Procaps](https://www.procapslaboratorios.com)
+
+**Laboratorios La Santé**: Se centran en la producción de medicamentos genéricos de alta calidad, con un enfoque en la accesibilidad y la eficiencia.
+
+**Laboratorios Baxter**: Aunque es una multinacional, Baxter tiene una presencia significativa en Colombia, ofreciendo productos y terapias para tratar afecciones médicas complejas.
+
+**Abbott Laboratories**: Otra multinacional con fuerte presencia en Colombia, Abbott ofrece una amplia gama de productos farmacéuticos, desde nutrición hasta diagnósticos médicos. [Abbott](https://www.abbott.co)
+
+Estos laboratorios juegan un papel crucial en el desarrollo y distribución de medicamentos en el país.",https://www.tecnoquimicas.com | https://www.procapslaboratorios.com | https://www.abbott.co,,366,300,0.003915,5.15,
+2026-06-23T11:03:28,domain: pharmarket.co,Colombia,CO,¿Cuáles son los principales laboratorios de medicamentos en Colombia?,o4-mini,"A continuación se presenta una lista de los principales laboratorios farmacéuticos con operación y producción en Colombia. Primero se enlistan las compañías de capital mayoritariamente colombiano, seguidas de las multinacionales con presencia local.  
+
+1. Tecnoquímicas (Grupo TQ)  
+2. Procaps S.A.  
+3. Laboratorio Franco Colombiano – Lafrancol (AbbVie)  
+4. Laboratorios Genfar  
+5. Megalabs Colombia  
+6. Laboratorios Chalver de Colombia  
+7. Merck Sharp & Dohme – MSD Colombia  
+8. Sanofi-Aventis de Colombia  
+9. Bayer S.A. Colombia  
+10. Pfizer Colombia  
+11. GlaxoSmithKline Colombia  
+12. Novartis Colombia  
+13. AstraZeneca Colombia  
+
+A continuación, una breve descripción de cada uno:
+
+• Tecnoquímicas (Grupo TQ)  
+  – Sitio web: https://www.tq.com.co  
+  – Empresa colombiana fundada en 1934 en Bogotá. Produce y comercializa genéricos, medicamentos de marca, productos de consumo masivo y cuidado personal. Su portafolio incluye marcas como MK (Sal de Frutas Lua, Yodora), Colbón, Límpido y Blankísima. Es líder del mercado con aproximadamente 14 % de participación en el sector farmacéutico local ([en.wikipedia.org](https://en.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai)).  
+
+• Procaps S.A.  
+  – Sitio web: https://www.procaps.com  
+  – Con sede en Barranquilla, es líder en tecnologías de administración de fármacos (softgels, sistemas orales de liberación controlada). Enfocado en genéricos y productos diferenciados, prepara su salida a bolsa tras fusión con Unión Acquisition Corp II ([es.wikipedia.org](https://es.wikipedia.org/wiki/Procaps?utm_source=openai)).  
+
+• Laboratorio Franco Colombiano – Lafrancol (AbbVie)  
+  – Sitio web: https://www.lafrancol.com  
+  – Historia centenaria iniciada en 1910. En 2014 fue adquirido por Abbott Laboratories (hoy AbbVie), manteniendo la manufactura de genéricos y productos de marca con instalaciones en Bogotá y Cali ([las2orillas.co](https://www.las2orillas.co/los-barberi-duenos-de-tq-y-los-minski-duenos-procaps-los-ganadores-en-el-negocio-de-medicamentos/?utm_source=openai)).  
+
+• Laboratorios Genfar  
+  – Sitio web: https://www.genfar.com.co  
+  – Con más de 55 años en el país, desarrolla y produce medicamentos genéricos y de marca, así como productos veterinarios (a través de Ceva Salud Animal). Ocupa el cuarto lugar en facturación conjunta con Sanofi-Aventis en 2024 ([lanota.com](https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai)).  
+
+• Megalabs Colombia  
+  – Sitio web: https://www.megalabs.com.co  
+  – Especializados en el desarrollo y manufactura de genéricos, suplementos y productos OTC. Sede en Bogotá, apuntan a nichos como salud femenina y gastrointestinal.  
+
+• Laboratorios Chalver de Colombia  
+  – Sitio web: https://www.chalver.com  
+  – Fundados en Bogotá, producen medicamentos de prescripción y de libre formulación, con énfasis en cardiología, gastroenterología y respiratorio ([informacolombia.com](https://www.informacolombia.com/directorio-empresas/actividad/2100_FABRICACION-DE-PRODUCTOS-FARMACEUTICOS-SUSTANCIAS-QUIMICAS-MEDICINALES-Y-PRODUCTOS-BOTANICOS-DE-USO-FARMACEUTICO?utm_source=openai)).  
+
+• Merck Sharp & Dohme – MSD Colombia  
+  – Sitio web: https://www.msd.com.co  
+  – Subsidiaria de la estadounidense Merck & Co., enfocada en medicamentos de innovación para oncología, diabetes, vacunas y salud animal. Ocupó el tercer puesto en facturación del sector en 2024 junto a MSD Salud Animal ([lanota.com](https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai)).  
+
+• Sanofi-Aventis de Colombia  
+  – Sitio web: https://www.sanofi.com.co  
+  – Filial de la francesa Sanofi; fabrica y comercializa medicamentos de prescripción, vacunas (a través de Sanofi Pasteur) y productos de cuidado de la salud. En 2024 se asoció con Genfar y Ceva para ocupar el cuarto lugar de ventas ([lanota.com](https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai)).  
+
+• Bayer S.A. Colombia  
+  – Sitio web: https://www.bayer.com.co  
+  – Multinacional alemana con presencia en salud humana (cardiología, reproducción, oncología), salud animal y cuidado de cultivos. Quintó lugar en facturación en 2024 ([expeditiorepositorio.utadeo.edu.co](https://expeditiorepositorio.utadeo.edu.co/bitstream/handle/20.500.12010/4748/Valoracio%CC%81n%20Coaspharma%20SAS.pdf?sequence=1&utm_source=openai)).  
+
+• Pfizer Colombia  
+  – Sitio web: https://www.pfizer.com.co  
+  – Compañía estadounidense reconocida por innovación en biotecnología: vacunas, tratamientos oncológicos, cardiológicos y antiinflamatorios. Presente en Colombia desde hace más de 60 años.  
+
+• GlaxoSmithKline (GSK) Colombia  
+  – Sitio web: https://www.gsk.com.co  
+  – Británica, líder en vacunas (GSK Biologicals), medicamentos respiratorios y salud de consumo (OTC).  
+
+• Novartis Colombia  
+  – Sitio web: https://www.novartis.com.co  
+  – Suiza, con énfasis en medicamentos innovadores para oncología, oftalmología, neurología y genéricos a través de Sandoz.  
+
+• AstraZeneca Colombia  
+  – Sitio web: https://www.astrazeneca.com.co  
+  – Inglesa-sueca, destacada en oncología, biología celular y pulmonar, con inversiones recientes en producción local de terapias avanzadas.  
+
+Estos laboratorios cubren desde productos genéricos de venta libre hasta medicamentos de alta complejidad e innovación, conformando el núcleo de la industria farmacéutica en Colombia.",https://www.tq.com.co | https://en.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai | https://www.procaps.com | https://es.wikipedia.org/wiki/Procaps?utm_source=openai | https://www.lafrancol.com | https://www.las2orillas.co/los-barberi-duenos-de-tq-y-los-minski-duenos-procaps-los-ganadores-en-el-negocio-de-medicamentos/?utm_source=openai | https://www.genfar.com.co | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://www.megalabs.com.co | https://www.chalver.com | https://www.informacolombia.com/directorio-empresas/actividad/2100_FABRICACION-DE-PRODUCTOS-FARMACEUTICOS-SUSTANCIAS-QUIMICAS-MEDICINALES-Y-PRODUCTOS-BOTANICOS-DE-USO-FARMACEUTICO?utm_source=openai | https://www.msd.com.co | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://www.sanofi.com.co | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://www.bayer.com.co | https://expeditiorepositorio.utadeo.edu.co/bitstream/handle/20.500.12010/4748/Valoracio%CC%81n%20Coaspharma%20SAS.pdf?sequence=1&utm_source=openai | https://www.pfizer.com.co | https://www.gsk.com.co | https://www.novartis.com.co | https://www.astrazeneca.com.co,https://en.wikipedia.org/wiki/Tecnoqu%C3%ADmicas?utm_source=openai | https://es.wikipedia.org/wiki/Procaps?utm_source=openai | https://www.las2orillas.co/los-barberi-duenos-de-tq-y-los-minski-duenos-procaps-los-ganadores-en-el-negocio-de-medicamentos/?utm_source=openai | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://www.informacolombia.com/directorio-empresas/actividad/2100_FABRICACION-DE-PRODUCTOS-FARMACEUTICOS-SUSTANCIAS-QUIMICAS-MEDICINALES-Y-PRODUCTOS-BOTANICOS-DE-USO-FARMACEUTICO?utm_source=openai | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://lanota.com/index.php/ranking-2025-laboratorios-farmaceuticos-de-colombia.html?utm_source=openai | https://expeditiorepositorio.utadeo.edu.co/bitstream/handle/20.500.12010/4748/Valoracio%CC%81n%20Coaspharma%20SAS.pdf?sequence=1&utm_source=openai,5470,1715,0.023563,39.04,
+2026-06-23T11:03:28,domain: pharmarket.co,Colombia,CO,¿Cuáles son los principales laboratorios de medicamentos en Colombia?,Claude Sonnet 4.6,"Aquí tienes un ranking de los **principales laboratorios de medicamentos en Colombia**, basado en el ranking más reciente (2024-2025), priorizando empresas con operaciones en el país:
+
+---
+
+## 🏆 Ranking de Principales Laboratorios Farmacéuticos en Colombia (2024–2025)
+
+Fuente: [La Nota Económica – Ranking 2025](https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html)
+
+---
+
+### 🇨🇴 Laboratorios de Origen Colombiano
+
+1. **Tecnoquímicas (TQ) / Tecnofar TQ**
+🌐 [tecnoquimicas.com](https://www.tecnoquimicas.com)
+Tecnoquímicas y su subordinada Tecnofar TQ mantuvieron el **liderazgo del mercado colombiano en 2024**, siendo el grupo farmacéutico nacional más grande del país. En 2021 lideraron el ranking con $2,2 billones en ingresos, incluyendo todos sus segmentos de salud y bienestar.
+
+2. **Procaps / C.I. Naturmega**
+🌐 [procaps.com.co](https://www.procaps.com.co)
+Procaps es una organización del sector salud que desarrolla soluciones farmacéuticas innovadoras bajo un modelo sostenible y de internacionalización permanente, con plantas productivas en Barranquilla (sede principal) y Bogotá.
+
+3. **Laboratorios Chalver / Chalver Zona Franca**
+🌐 [chalver.com](https://www.chalver.com)
+Laboratorio colombiano reconocido por su portafolio de medicamentos genéricos y de marca, con presencia en el mercado institucional y retail.
+
+4. **Grupo Calvar (Laboratorios La Sante, Pharmetique, Manufacturera Mundial Farmacéutica)**
+El Grupo Calvar, que agrupa a Laboratorios La Sante, Pharmetique, Manufacturera Mundial Farmacéutica y Research Pharmaceutical, figura entre los laboratorios de mediana escala más destacados del país.
+
+5. **Laboratorios Legrand**
+🌐 [legrand.com.co](https://www.legrand.com.co)
+Laboratorio colombiano con amplio portafolio de medicamentos genéricos y de venta libre, con tradición en el mercado nacional.
+
+6. **JGB**
+🌐 [jgb.com.co](https://www.jgb.com.co)
+Empresa colombiana con décadas de trayectoria en productos farmacéuticos y de cuidado personal.
+
+7. **Laboratorios Ecar**
+Laboratorio colombiano especializado en medicamentos genéricos con distribución nacional.
+
+---
+
+### 🌍 Multinacionales con Fuerte Presencia en Colombia
+
+8. **Abbott Laboratories Colombia / Lafrancol / Laboratorios Synthesis / Lafrancol Internacional**
+🌐 [abbott.com](https://www.abbott.com)
+Abbott Laboratories Colombia y sus subordinadas Lafrancol, Laboratorios Synthesis y Lafrancol Internacional ocuparon el **segundo lugar** en el ranking de 2024.
+
+9. **Merck / MSD Colombia / MSD Salud Animal**
+🌐 [merck.com](https://www.merck.com)
+Merck conjuntamente con MSD Colombia y MSD Salud Animal ascendieron al **tercer lugar** en el ranking de 2024.
+
+10. **Sanofi-Aventis de Colombia / Genfar / Ceva Salud Animal**
+🌐 [sanofi.com](https://www.sanofi.com) | [genfar.com.co](https://www.genfar.com.co)
+Sanofi-Aventis de Colombia conjuntamente con Genfar y Ceva Salud Animal ocuparon el **cuarto lugar** en 2024. Genfar es una de las marcas de genéricos más reconocidas por los colombianos.
+
+11. **Bayer Colombia**
+🌐 [bayer.com/es/colombia](https://www.bayer.com/es/colombia)
+Bayer ocupó el **quinto lugar** en el ranking de 2024. En Colombia, el producto estrella de Bayer es la icónica Aspirina, y en la división farmacéutica cuentan con el anticoagulante oral más prescrito en el país.
+
+12. **Productos Roche**
+🌐 [roche.com.co](https://www.roche.com.co)
+Productos Roche se situó en el **sexto lugar** del ranking de 2024.
+
+13. **Novartis de Colombia / Laboratorios Alcon de Colombia**
+🌐 [novartis.com.co](https://www.novartis.com.co)
+Novartis de Colombia conjuntamente con Laboratorios Alcon de Colombia ocuparon el **séptimo lugar** en 2024.
+
+14. **Boehringer Ingelheim**
+🌐 [boehringer-ingelheim.com](https://www.boehringer-ingelheim.com)
+Boehringer Ingelheim se posicionó en el **noveno lugar** del ranking de 2024.
+
+15. **Pfizer Colombia**
+🌐 [pfizer.com.co](https://www.pfizer.com.co)
+Pfizer figura entre los laboratorios más destacados del país en el ranking de 2024.
+
+16. **AstraZeneca Colombia**
+🌐 [astrazeneca.com.co](https://www.astrazeneca.com.co)
+AstraZeneca Colombia se posicionó entre los laboratorios líderes del mercado en 2024.
+
+17. **GSK Colombia (GlaxoSmithKline)**
+🌐 [gsk.com/es-co](https://www.gsk.com/es-co)
+Novartis y GlaxoSmithKline son las farmacéuticas mejor reputadas en Colombia según el monitor MERCO.
+
+18. **Novo Nordisk Colombia**
+🌐 [novonordisk.com.co](https://www.novonordisk.com.co)
+Novo Nordisk Colombia figura entre los laboratorios de alto dinamismo en el mercado nacional en 2024.
+
+---
+
+### 📊 Perspectiva del Mercado
+
+El mercado farmacéutico colombiano proyecta ingresos por **US$2.531 millones**, con una tasa de crecimiento anual del 2,25%, lo que representaría un volumen de mercado de US$2.767 millones para 2027. El segmento que más crecerá será el de los **medicamentos oncológicos**, con un volumen de mercado de US$394 millones.
+
+---
+
+>",https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://www.tecnoquimicas.com | https://www.procaps.com.co | https://www.chalver.com | https://www.legrand.com.co | https://www.jgb.com.co | https://www.abbott.com | https://www.merck.com | https://www.sanofi.com | https://www.genfar.com.co | https://www.bayer.com/es/colombia | https://www.roche.com.co | https://www.novartis.com.co | https://www.boehringer-ingelheim.com | https://www.pfizer.com.co | https://www.astrazeneca.com.co | https://www.gsk.com/es-co | https://www.novonordisk.com.co,https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://www.larepublica.co/empresas/el-sector-farmaceutico-se-expandira-mas-de-2-este-ano-liderado-por-tecnoquimicas-3609969 | https://www.promofar.com/directorio-industria-farmaceutica/empresas-companias-laboratorios-farmaceuticos-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://www.larepublica.co/empresas/el-sector-farmaceutico-se-expandira-mas-de-2-este-ano-liderado-por-tecnoquimicas-3609969 | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://consultorsalud.com/ranking-empresas-de-salud-y-farmaceuticas-con-mejor-reputacion-corporativa/ | https://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://www.larepublica.co/empresas/el-sector-farmaceutico-se-expandira-mas-de-2-este-ano-liderado-por-tecnoquimicas-3609969 | https://www.larepublica.co/empresas/el-sector-farmaceutico-se-expandira-mas-de-2-este-ano-liderado-por-tecnoquimicas-3609969,16576,2162,0.092158,37.97,
+2026-06-23T11:03:28,domain: pharmarket.co,Colombia,CO,¿Cuáles son los principales laboratorios de medicamentos en Colombia?,Gemini 3.1 Pro,"Como asistente de investigación de mercado, aquí tienes el panorama principal de la industria farmacéutica en Colombia. He priorizado los laboratorios de origen nacional y aquellos con una huella productiva fundamental en el país.
+
+### Principales Laboratorios de Medicamentos en Colombia
+
+1. **Tecnoquímicas** (https://www.tecnoquimicas.com)
+2. **Procaps Group** (https://www.procapslaboratorios.com)
+3. **Genfar** (https://www.genfar.com)
+4. **Laboratorios Bussié** (https://www.bussie.com.co)
+5. **Novamed** (https://www.novamed.com.co)
+6. **Lafrancol / Abbott Colombia** (https://www.latam.abbott/colombia.html)
+
+---
+
+### Perfil y Explicación de cada Laboratorio
+
+**1. Tecnoquímicas (TQ)**
+Es, sin duda, la compañía farmacéutica de capital 100% colombiano más grande e importante del país. Con sede en Cali, TQ opera en múltiples divisiones, desde medicamentos de prescripción hasta productos de venta libre (OTC). Son los propietarios de la famosa marca de genéricos **MK**, la cual tiene una altísima recordación en toda América Latina. Además, tienen alianzas de producción y distribución con varias multinacionales.
+
+**2. Procaps Group**
+Con sede principal en Barranquilla, Procaps es un laboratorio colombiano de talla internacional (incluso cotiza en la bolsa de NASDAQ en EE. UU.). Son líderes mundiales en la tecnología de cápsulas blandas de gelatina (Softgel). Además de producir sus propias marcas, maquilan para decenas de laboratorios globales. Su innovación y capacidad de exportación los hace un jugador clave en la región.
+
+**3. Genfar**
+Originalmente un laboratorio colombiano muy fuerte en el segmento de medicamentos genéricos, Genfar logró democratizar el acceso a los medicamentos en el país. Fue adquirida por la multinacional francesa Sanofi, y posteriormente en 2023 se anunció su venta a la compañía farmacéutica europea Eurofarma. A pesar de los cambios de dueños, su planta de producción en Cali sigue siendo uno de los complejos industriales farmacéuticos más grandes e importantes de Colombia.
+
+**4. Laboratorios Bussié**
+Es una empresa de origen colombiano con sede en Bogotá que cuenta con una trayectoria de varias décadas en el país. Se especializan en la producción y comercialización de medicamentos de prescripción médica para áreas terapéuticas como cardiología, sistema nervioso central, dolor y gastroenterología.
+
+**5. Novamed**
+Ubicada en Barranquilla, Novamed es una compañía farmacéutica colombiana de tamaño mediano pero con gran crecimiento y sólida presencia nacional e internacional. Tienen un portafolio robusto enfocado en áreas como pediatría, respiratorio, dermatología y dolor. Destacan por sus continuas inversiones en infraestructura y plantas de producción certificadas con altos estándares.
+
+**6. Lafrancol**
+Lafrancol fue durante casi un siglo uno de los laboratorios colombianos de mayor tradición y tamaño. Fue adquirida por CFR Pharmaceuticals (Chile) y, posteriormente, absorbida por la gigante multinacional **Abbott**. Aunque la marca corporativa pertenece hoy a una multinacional estadounidense, gran parte de los medicamentos que los colombianos consumen bajo el paraguas de Abbott se siguen manufacturando en las antiguas e inmensas plantas de Lafrancol en Cali y Bogotá.",https://www.tecnoquimicas.com | https://www.procapslaboratorios.com | https://www.genfar.com | https://www.bussie.com.co | https://www.novamed.com.co | https://www.latam.abbott/colombia.html,,60,1481,0.017892,18.63,
+2026-06-23T11:03:28,domain: pharmarket.co,Colombia,CO,¿Cuáles son los principales laboratorios de medicamentos en Colombia?,Sonar Reasoning Pro,"Los principales laboratorios de medicamentos en Colombia combinan filiales de multinacionales (Sanofi, Abbott, Pfizer, Novartis, Roche, GSK) y laboratorios nacionales consolidados como Memphis y Delta, que lideran por ventas, importaciones o producción local.[2][3][6][7] La autoridad sanitaria (Invima) y rankings sectoriales recientes confirman un universo amplio de fabricantes certificados y empresas con fuerte presencia comercial.[1][8][9]  
+
+## Multinacionales líderes con operación en Colombia  
+
+- **Sanofi (Sanofi-Aventis de Colombia S.A.)**  
+  Sanofi encabeza rankings de mercado en Colombia: un estudio de la Cámara de Comercio Colombo Americana la ubica como la compañía farmacéutica número 1 en ventas y participación junto con Abbott y Pfizer.[2] En la lista de principales importadores figura como Sanofi-Aventis de Colombia S.A., lo que refleja su peso en medicamentos de marca y especializados.[3]  
+
+- **Abbott Laboratories de Colombia**  
+  Abbott aparece dentro de las tres farmacéuticas con mayor participación en el mercado colombiano, junto a Sanofi y Pfizer, según el ranking de las 20 empresas farmacéuticas más destacadas del país.[2] Su portafolio local incluye medicamentos de prescripción, productos nutricionales y dispositivos médicos, gestionados desde su sitio corporativo para Colombia.[2]  
+
+- **Pfizer S.A.S. (Colombia)**  
+  Pfizer es top 3 del mercado colombiano por ventas, según AmCham, y aparece también entre los principales importadores de productos farmacéuticos como Pfizer S.A.S.[2][3] Figura en listados oficiales del Invima como titular de múltiples registros sanitarios en vacunas y fármacos de alto valor terapéutico.[9]  
+
+- **Novartis de Colombia S.A.**  
+  Novartis de Colombia S.A. encabeza el ranking de empresas que más productos farmacéuticos importan en el país, lo que la posiciona como uno de los jugadores más fuertes en medicamentos innovadores.[3] A nivel de reputación sanitaria global también ocupa el primer lugar en el monitor Merco para empresas farmacéuticas, indicando una marca de alto prestigio.[5]",,http://lanota.com/index.php/CONFIDENCIAS/ranking-2025-laboratorios-farmaceuticos-de-colombia.html | https://amchamcolombia.co/noticias-afiliados/las-20-empresas-farmaceuticas-mas-destacadas-del-mercado-colombiano/ | https://www.treid.co/post/las-10-empresas-que-m%C3%A1s-productos-farmac%C3%A9uticos-importan-en-colombia | https://labdelta.com | https://www.merco.info/es/monitor-reputacion-sanitaria-empresas-farmaceuticas | https://memphis.com.co | https://investincolombia.com.co/es/sectores/servicios-de-salud-y-ciencias-de-la-vida/sector-farmaceutico | https://www.datos.gov.co/Salud-y-Protecci-n-Social/ESTABLECIMIENTOS-NACIONALES-FABRICANTES-DE-MEDICAM/xbpm-2jee | https://www.invima.gov.co/biblioteca/ll_vacunas_mar__202019_13pdf,74,535,0.010428,48.36,
